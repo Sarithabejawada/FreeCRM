@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CustomerloginTestcase">
+        <methods>
+          <include name="customerloginpagetest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomerloginTestcase -->
+      <class name="com.crm.qa.testcases.OpenaccountTestcase">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="openaccount"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.OpenaccountTestcase -->
+      <class name="com.crm.qa.testcases.SearchcustomerTestcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchcustomers"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.SearchcustomerTestcase -->
+      <class name="com.crm.qa.testcases.AddToCustomerTestcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addcustomer"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.AddToCustomerTestcase -->
+      <class name="com.crm.qa.testcases.CustomerdepositTestcase">
+        <methods>
+          <include name="setUp"/>
+          <include name="customerdeposit"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomerdepositTestcase -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
