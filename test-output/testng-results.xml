@@ -1,81 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-10T14:54:38Z" name="FREE CRM Application Test Automation Test Suite" finished-at="2024-03-10T14:55:14Z" duration-ms="36134">
+  <suite started-at="2024-03-12T12:00:42Z" name="Default suite" finished-at="2024-03-12T12:00:48Z" duration-ms="5924">
     <groups>
     </groups>
-    <test started-at="2024-03-10T14:54:38Z" name="Free CRM App Test Cases" finished-at="2024-03-10T14:55:14Z" duration-ms="36134">
+    <test started-at="2024-03-12T12:00:42Z" name="Default test" finished-at="2024-03-12T12:00:48Z" duration-ms="5924">
       <class name="com.crm.qa.testcases.OpenaccountTestcase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OpenaccountTestcase@61dd025]" started-at="2024-03-10T20:25:01Z" name="setUp" finished-at="2024-03-10T20:25:05Z" duration-ms="4493" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.OpenaccountTestcase@413d1baf]" started-at="2024-03-12T17:30:42Z" name="setUp" finished-at="2024-03-12T17:30:46Z" duration-ms="4029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openaccount()[pri:1, instance:com.crm.qa.testcases.OpenaccountTestcase@61dd025]" started-at="2024-03-10T20:25:05Z" name="openaccount" finished-at="2024-03-10T20:25:07Z" duration-ms="1709" status="PASS">
+        <test-method signature="openaccount()[pri:1, instance:com.crm.qa.testcases.OpenaccountTestcase@413d1baf]" started-at="2024-03-12T17:30:46Z" name="openaccount" finished-at="2024-03-12T17:30:48Z" duration-ms="1573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openaccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OpenaccountTestcase@61dd025]" started-at="2024-03-10T20:25:07Z" name="tearDown" finished-at="2024-03-10T20:25:07Z" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.OpenaccountTestcase@413d1baf]" started-at="2024-03-12T17:30:48Z" name="tearDown" finished-at="2024-03-12T17:30:48Z" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.OpenaccountTestcase -->
-      <class name="com.crm.qa.testcases.CustomerloginTestcase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CustomerloginTestcase@2f177a4b]" started-at="2024-03-10T20:24:38Z" name="setUp" finished-at="2024-03-10T20:24:43Z" duration-ms="5068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="customerloginpagetest()[pri:1, instance:com.crm.qa.testcases.CustomerloginTestcase@2f177a4b]" started-at="2024-03-10T20:24:43Z" name="customerloginpagetest" finished-at="2024-03-10T20:24:45Z" duration-ms="2252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerloginpagetest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CustomerloginTestcase@2f177a4b]" started-at="2024-03-10T20:24:45Z" name="tearDown" finished-at="2024-03-10T20:24:46Z" duration-ms="538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.CustomerloginTestcase -->
-      <class name="com.crm.qa.testcases.CustomerdepositTestcase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CustomerdepositTestcase@4278a03f]" started-at="2024-03-10T20:24:46Z" name="setUp" finished-at="2024-03-10T20:24:50Z" duration-ms="4445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="customerdeposit()[pri:1, instance:com.crm.qa.testcases.CustomerdepositTestcase@4278a03f]" started-at="2024-03-10T20:24:50Z" name="customerdeposit" finished-at="2024-03-10T20:24:53Z" duration-ms="2853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerdeposit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CustomerdepositTestcase@4278a03f]" started-at="2024-03-10T20:24:53Z" name="tearDown" finished-at="2024-03-10T20:24:53Z" duration-ms="500" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.CustomerdepositTestcase -->
-      <class name="com.crm.qa.testcases.AddToCustomerTestcase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.AddToCustomerTestcase@147ed70f]" started-at="2024-03-10T20:24:53Z" name="setUp" finished-at="2024-03-10T20:24:58Z" duration-ms="4468" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addcustomer()[pri:1, instance:com.crm.qa.testcases.AddToCustomerTestcase@147ed70f]" started-at="2024-03-10T20:24:58Z" name="addcustomer" finished-at="2024-03-10T20:25:00Z" duration-ms="2435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addcustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.AddToCustomerTestcase@147ed70f]" started-at="2024-03-10T20:25:00Z" name="tearDown" finished-at="2024-03-10T20:25:01Z" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.AddToCustomerTestcase -->
-      <class name="com.crm.qa.testcases.SearchcustomerTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.SearchcustomerTestcase@124c278f]" started-at="2024-03-10T20:25:07Z" name="setup" finished-at="2024-03-10T20:25:12Z" duration-ms="4373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchcustomers()[pri:1, instance:com.crm.qa.testcases.SearchcustomerTestcase@124c278f]" started-at="2024-03-10T20:25:12Z" name="searchcustomers" finished-at="2024-03-10T20:25:13Z" duration-ms="1620" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchcustomers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.SearchcustomerTestcase@124c278f]" started-at="2024-03-10T20:25:13Z" name="tearDown" finished-at="2024-03-10T20:25:14Z" duration-ms="457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.SearchcustomerTestcase -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

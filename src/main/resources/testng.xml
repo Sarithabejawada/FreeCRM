@@ -9,13 +9,11 @@
 
 	<test name="Free CRM App Test Cases">
 		<classes>
-			<class name="com.crm.qa.testcases.CustomerloginTestcase"/>
-            <class name="com.crm.qa.testcases.CustomerdepositTestcase"/>
-            
-            <class name="com.crm.qa.testcases.AddToCustomerTestcase"/>
-            <class name="com.crm.qa.testcases.OpenaccountTestcase"/>
-            <class name="com.crm.qa.testcases.SearchcustomerTestcase"/>
-
+			<class name="com.crm.qa.testcases.CustomerloginTestcase" />
+			<class name="com.crm.qa.testcases.CustomerdepositTestcase" />
+			<class name="com.crm.qa.testcases.AddToCustomerTestcase" />
+			<class name="com.crm.qa.testcases.OpenaccountTestcase" />
+			<class name="com.crm.qa.testcases.SearchcustomerTestcase" />
 
 
 		</classes>
